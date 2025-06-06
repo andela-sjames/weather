@@ -1,0 +1,30 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "A simple weather App",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-sjames/weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-sjames/weather/issues"
+  },
+  "homepage": "https://github.com/andela-sjames/weather#readme",
+  "dependencies": {
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite-plugin-static-copy": "^3.0.0"
+  }
+}

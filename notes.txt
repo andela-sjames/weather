@@ -1,0 +1,11 @@
+# Psuedo code: Step by step process
+
+Get the city name from the user
+
+Build a request to OpenWeather
+
+Wait for the data
+
+Display the temperature if successful
+
+Show an error message if not
